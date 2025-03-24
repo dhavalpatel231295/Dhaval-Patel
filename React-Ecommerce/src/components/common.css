@@ -1,0 +1,353 @@
+body, navbar{
+    background-color: #000000;
+  }
+  
+  header {
+    height: 100px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 120px;
+    color:#F9AB42;
+  }
+  
+  .card {
+    background-color: #000000;
+    border-color: #F9AB42;
+  }
+
+
+  
+.list-group-item{
+  background-color: #000000;
+    border-color: #F9AB42;
+    color: #F9AB42;
+    font-weight: bolder;
+}
+
+  /* Design for profile picture */
+  .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    background-image: url('../assets/logo.png');
+    background-size: cover;
+    display: block;
+    margin: 2px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 0 3px #F9AB42;
+    float: left;
+  }
+  
+  /* Set no margin between student number and email id */
+  header p {
+    margin-left: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;  
+  }
+  
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 35px;  
+    color: white;
+    text-align: center;
+  }
+
+  .proTitle {
+    text-align: left;
+    color: #F9AB42;
+  }
+
+  .proPrice {
+    color: #F9AB42;
+    font: bold;
+  }
+
+  h5 {
+    color: #836539;
+  }
+
+  label, h4, .small-dtl {
+    color: #F9AB42;
+  }
+
+  .login-p {
+    text-align: center;
+  }
+  
+  .account-title {
+    color: white;
+    padding-left: 0px;
+  }
+
+  hr {
+    color: white;
+  }
+  
+  .btnc, .line {
+    color: #F9AB42;
+  }
+
+  nav {
+    font-size: 25px;
+    text-decoration: none;
+    color: #F9AB42;
+    transition: font-size 0.1s ease-in-out, border 0.3s ease-in-out; /* Added border transition */
+    border-bottom: 2px solid transparent; /* Initially transparent border */
+  }
+  
+  /* on hover change color, font size, and add border */
+  nav a:hover {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #F9AB42; /* Border color matches the text color */
+  }
+  
+  /* Style for nav links */
+.nav-link {
+  color: #F9AB42;
+  font-weight: bold;
+  margin: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Style for active nav links */
+.nav-link.active {
+  color: #FF8C00; 
+  border-bottom: 2px solid #FF8C00; /* Add an underline for selected nav links */
+  font-weight: bolder;
+  transition: all 0.3s ease;
+}
+
+
+  .language-dropdown {
+    position: absolute;
+    top: 10px;
+    right: 10px;     
+  }
+  
+  .language-dropdown select {
+    background-color: #F9AB42;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #F9AB42;
+    padding: 5px;
+    border-radius: 62px;
+    width: 150px;
+  }
+  
+  button:hover{
+    background-color: #00ff00;
+    color: #000000;
+  }
+  
+  .navbar{
+    background-color: #000000;
+    border-color: #F9AB42;
+  }
+
+  .buyNow {
+    background-color: #F9AB42;
+    padding: 5px;
+    border-radius: 62px;
+    width: 250px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .buyNow:hover{
+    background-color: #00ff00;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+  }
+
+  .myCardTitle{
+    color: #F9AB42;
+  }
+  
+  /* including margins, paddings and border inside total width and height */
+  * {
+    box-sizing: border-box;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: #F9AB42;
+    background-color: rgb(72, 72, 72);
+  }
+  
+  /* make all the footer contents as horizontal list */
+  .footer-list li {
+    display: inline-block;
+    margin-right: 57px;
+    color: #F9AB42;
+  }
+  
+  /* add transition effect/change default color of link and remove underline */
+  .footer-list > li > a {
+    
+    color: #F9AB42;
+    font-size: 20px;
+    text-decoration: none;
+    transition: font-size 0.1s ease-in-out;
+  }
+  
+  /* on hover change color and font size */
+  .footer-list>li>a:hover {
+    font-size: 30px;  
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .products-content {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    height: auto;
+  }
+  
+  .products-content  h2{
+    color: #F9AB42;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #F9AB42;
+  }
+  
+.pageHeader{
+  color: #F9AB42;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #F9AB42;
+}
+
+  section{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .product {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    height: 320px;
+    width: 240px;
+   border: 1px solid #F9AB42;
+    align-items: center;
+  }
+  
+  .product img {
+    max-width: 80%;
+    max-height: 200px;
+  }
+  
+  .product h3,p{
+    padding: 0;
+    margin: 0;
+    color:#F9AB42;
+  }
+  
+  
+  .page-navigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-navigation a {
+    color: #F9AB42;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #F9AB42;
+  }
+  .page-navigation a.active {
+    background-color: #F9AB42;
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+  }
+  
+  .page-navigation a:hover:not(.active) {
+    background-color: #F9AB42;
+    color: black;
+  }
+  
+  
+  /* comment section  */
+  span{
+    color: #F9AB42;
+  }
+  .wrapper{
+    display:flex;
+    
+  }
+  .accordian{
+    width:650px;
+  }
+  .item{
+    background:#f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+  }
+  .title{
+    color:#85662b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .content{
+    color: #8b7f75;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+  }
+  .content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+  }
+  .postComment {
+    background-color: #F9AB42;
+    padding: 5px;
+    border-radius: 62px;
+    width: 70px;
+  }
+  .userComment{
+    border-radius: 62px;
+    padding: 5px;
+    width: 300px;
+    margin-right: 10px;
+    padding-left: 20px;
+  }
+  .title span{
+    background-color: #F9AB42;
+    color:#000000;
+    padding: 3px 12px;
+    border-radius: 16px;
+    
+  }
+.uploaded-image-container{
+  max-width: 300px; 
+  max-height: auto;
+  overflow: hidden;
+}
+.uploaded-image{
+  width: 100%;
+  height: auto;
+}
+.container{
+  background-color: #000000;
+}
+
+
